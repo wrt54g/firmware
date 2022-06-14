@@ -2,7 +2,7 @@
 # for VS Code or Notepad++ install plugin called EditorConfig
 
 # top-most EditorConfig file
-root = true
+root = false
 
 # Matches any string of characters, except path separators
 [*]
