@@ -22,7 +22,6 @@
           {% include post-list/tab-links.html type='tags' list = _group icon=site.data.conf.posts.post_query_tabs_item_icons.tags -%}
         </ul>
       </div>
-      {%comment-%} Years {%-endcomment-%}
       <div id="tab3" class="tab-pane link-buttons">
         <ul class="nav nav-pills">
           {%- assign _group = lng_pages | sort: 'date' | reverse | group_by_exp:"post", "post.date | date: '%Y'" -%}
@@ -37,8 +36,6 @@
     </div>
     <ul class="nav nav-tabs">
       <li><a href="#tab1" data-toggle="tab"><i class="{{ 'fa-fw ' }}{{ site.data.conf.posts.post_query_tabs_category_tab_icon }}" aria-hidden="true"></i>{{ site.data.lang[lng].post-list.upside_down_tabs.tab.categories }}</a></li>
-      <li><a href="#tab2" data-toggle="tab"><i class="{{ 'fa-fw ' }}{{ site.data.conf.posts.post_query_tabs_tag_tab_icon }}" aria-hidden="true"></i>{{ site.data.lang[lng].post-list.upside_down_tabs.tab.tags }}</a></li>
-      <li><a href="#tab3" data-toggle="tab"><i class="{{ 'fa-fw ' }}{{ site.data.conf.posts.post_query_tabs_year_tab_icon }}" aria-hidden="true"></i>{{ site.data.lang[lng].post-list.upside_down_tabs.tab.years }}</a></li>
       {%comment-%} your new tab
       <li><a href="#tab4" data-toggle="tab">title</a></li>
       {%-endcomment-%}
