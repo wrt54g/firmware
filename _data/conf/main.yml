@@ -21,11 +21,11 @@ default_lng: en
 # to prevent adding languages with no folder
 # single language disables language switch
 # language order is linked to array order
-language_switch_lang_list: [en, ja]
+language_switch_lang_list: [en]
 
 # if the opened page is not in the user's language list,
 # suggest language(s) matching with the one(s) in browser language list and user language list.
-language_translation_offer_box: true
+language_translation_offer_box: false
 
 # Disable 3rd party translation suggestion for pages with translation.
 language_translation_offer_disable_ext_translation: true
@@ -88,11 +88,11 @@ search_with_uri: true
 #                Image Viewer
 ###########################################################
 # this enables image viewer
-image_viewer: true
+image_viewer: false
 
 # this enables image viewer for all posts
 # even if you disable for all posts, you can still turn on individually by adding "image_viewer_on: true" on header of any page.
-image_viewer_posts: true
+image_viewer_posts: false
 
 # css class at a mouse hover
 image_viewer_hover_cursor: mfp-zoom
@@ -185,12 +185,6 @@ side_and_top_nav_buttons:
     icon: "fa fa-home"
   - post-list:
     icon: "fa fa-pencil-square-o"
-  - archives:
-    icon: "fa fa-archive"
-  - projects:
-    icon: "fa fa-cog"
-  - links:
-    icon: "fa fa-link"
   - about:
     icon: "fa fa-user-o"
 
@@ -209,7 +203,7 @@ top_nav_brand_text_enable: true
 
 # set profile image
 # comment to disable the profile image
-side_nav_profile_img_path: /assets/img/posts/post_pic1.jpg
+#side_nav_profile_img_path: /assets/img/posts/post_pic1.jpg
 
 # this adds hover effect to bottom buttons
 side_nav_bottom_buttons_hover_effect: "hover-effect"
@@ -230,7 +224,7 @@ contacts_open_in_new_tab: true
 #                Copyright text
 ###########################################################
 # this will add current year to the end of copyright_start_year which is defined in _data/owner/[language].yml
-copyright_add_end_year: false
+copyright_add_end_year: true
 
 # this uses copyright.additional_text defined in _data/lang/[language].yml
 # not recommended if creative_commons is enabled.
