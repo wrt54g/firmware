@@ -5,7 +5,7 @@
 brand: "Smart Device firmware files"
 
 # text below the brand name
-brand_sub_text: "$site_sample"
+brand_sub_text: " "
 
 # used for seo meta post author (if it's not defined in post)
 name: "@wrt54g"
@@ -19,7 +19,7 @@ home:
 
 # about page sub title
 about:
-  sub_title: ""
+  sub_title: "by @wrt54g"
 
 # if you don't want to add copyright year, comment or leave it blank.
 # the year during which the claimed copyright for the work was first asserted.
