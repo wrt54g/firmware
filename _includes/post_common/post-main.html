@@ -8,7 +8,7 @@
 
 <div class="multipurpose-container post-container">
   <div class="post-title">{{ page_title }}</div>
-  {%- include post_common/post-info-html.html date=post_date read_time=read_time url=post_url comment_style = comment_style -%}
+  {%- include post_common/post-info-html.html date=post_date url=post_url comment_style = comment_style -%}
   <hr/>
   <div class="markdown-style">
     {{ include.post.content }}
