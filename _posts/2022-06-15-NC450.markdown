@@ -20,3 +20,7 @@ date: 2022-06-15 14:14:00 +0900
 ---
 # TP-Link NC450 V2
 <img src="/assets/img/devices/nc450.jpg">
+
+- [X] EOL<br>
+[Download current firmware](https://github.com/wrt54g/firmware/blob/main/files/nc450v2/NC450_1.5.6_Build_200924_Rel.A191C3.bin?raw=true)<br>
+[View the archive](https://github.com/wrt54g/firmware/tree/main/files/nc450v2)
