@@ -11,7 +11,7 @@ category: Camera
 # multiple tag entries are possible
 tags: []
 # thumbnail image for post
-img: ":post_pic1.jpg"
+img: "/firmware/assets/img/devices/nc450.jpg"
 # disable comments on this page
 comments_disable: true
 
@@ -19,4 +19,4 @@ comments_disable: true
 date: 2022-06-15 14:14:00 +0900
 ---
 # TP-Link NC450 V2
-<img src="https://static.tp-link.com/NC450_2.0_1500520188212d.jpg">
+<img src="/firmware/assets/img/devices/nc450.jpg">
