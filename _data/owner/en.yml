@@ -19,7 +19,7 @@ home:
 
 # about page sub title
 about:
-  sub_title: "by @wrt54g"
+  sub_title: " "
 
 # if you don't want to add copyright year, comment or leave it blank.
 # the year during which the claimed copyright for the work was first asserted.
@@ -59,13 +59,13 @@ contacts:
 #  - your_new_contact: ""
 
 # Disqus Short name, make sure comments and disqus are enabled in _data/conf/posts.yml file
-disqus_shortname: ""
+#disqus_shortname: ""
 
 # if no id is provided, this feature will be disabled.
 # make sure your environment does not match with google.analytics.ignore in _data/conf/main.yml
-google_analytics_id: ""
+#google_analytics_id: ""
 
 # there are different ways to verify web page. One is adding this as meta into html.
 # make sure you set meta.google_site_verify: true in _data/conf/main.yml
 # make sure your environment does not match with google.site_verification.ignore in _data/conf/main.yml
-google_site_verification: ""
+#google_site_verification: ""
