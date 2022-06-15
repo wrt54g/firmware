@@ -69,8 +69,6 @@ post_query_tabs_tooltip: true
 # upside down tabs settings
 # tab icons
 post_query_tabs_category_tab_icon: "fa fa-list-ul"
-post_query_tabs_tag_tab_icon: "fa fa-tags"
-post_query_tabs_year_tab_icon: "fa fa-archive"
 post_query_tabs_clear_tab_icon: "fa fa-undo"
 post_query_tabs_close_tab_icon: "fa fa-angle-double-up"
 
