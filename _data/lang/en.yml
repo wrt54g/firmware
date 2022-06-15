@@ -6,7 +6,7 @@ lng:
   # For html tags, you can enable or disable using html_lng_with_country_code defined in _data/conf/main.yml
   # based on ISO_3166-1 https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
   country: US
-  switch_title: En
+  switch_title: EN
   offer:
     title: Language
     msg_page: View this page in English.
@@ -20,23 +20,23 @@ date:
   months: [Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec]
 
 not_found:
-  header: Page not found
+  header: Oops, this firmware is corrupt!
   line1: The page you requested could not be found.
-  line2: Try menu, or site search if available.
+  line2: Click the home page in the sidebar to go back to home page.
 
 no_translation_tooltip: No Translation
 
 navigation:
-  contact_header: Contact
+  contact_header: 
 
 color_scheme_switch_tooltip: Color scheme
 
 search:
   placeholder: Search
-  noResultText: No results found.
+  noResultText: There is no firmware for this yet. But why not add it or request it?
 
 image_viewer:
-  load_error: The image could not be loaded.
+  load_error: The image could not be loaded. Check your firewall and internet connection and reload this page.
 
 copyright:
   additional_text: " All rights reserved."
@@ -61,10 +61,10 @@ post:
     unit: " min"
     text: " read"
   pager_buttons:
-    older_post: "← Older Post"
-    newer_post: "Newer Post →"
-    first_post: First
-    last_post: Last
+    older_post: "← Prev page"
+    newer_post: "Next page →"
+    first_post: First page
+    last_post: Last page
   comments:
     disqus:
       count_title: Comments
@@ -87,7 +87,7 @@ post:
       move: Drag to move
       close: Close
   share:
-    heading: Share on
+    heading: Share this
     link_copied: Link copied!
     tooltip:
       # keys need to match with _data/share.yml
@@ -100,8 +100,8 @@ post:
 
 # for post-list layout
 post-list:
-  title: Blog
-  button_name: Blog
+  title: Devices
+  button_name: Devices
   upside_down_tabs:
     tab:
       all: All
@@ -126,34 +126,14 @@ post-list:
 home:
   title: Welcome
   button_name: Home
-  new_posts_title: New Articles
+  new_posts_title: Recently added devices
   new_posts_show_more_button: View More ...
-
-# for archives layout
-archives:
-  title: Archive
-  button_name: Archive
-  page_header: Archive
 
 # for about layout
 about:
   title: About
   button_name: About
   email_title: email
-
-# for links layout
-links:
-  title: Links
-  button_name: Links
-  link_text: Web site
-  info_text: Info
-
-# for projects layout
-projects:
-  title: Projects
-  button_name: Projects
-  read_more_text: Read more
-  read_less_text: Read less
 
 # for privacy-policy layout
 privacy-policy:
