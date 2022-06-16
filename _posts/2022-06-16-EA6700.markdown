@@ -23,5 +23,5 @@ date: 2022-06-16 20:00:00 +0900
 - [ ] EOL<br>
 [Download current firmware (US)](https://github.com/wrt54g/firmware/blob/main/files/ea6700/FW_EA6700_1.1.42.203057_prod.gpg.img?raw=true)<br>
 [Download current firmware (Other regions)](https://github.com/wrt54g/firmware/blob/main/files/ea6700/FW_EA6700_1.1.42.203057_prod.img?raw=true)<br>
-[View archive](https://github.com/wrt54g/firmware/tree/main/files/ea6700)
+[View archive](https://github.com/wrt54g/firmware/tree/main/files/ea6700)<br>
 [View documents/manual](https://github.com/wrt54g/firmware/tree/main/files/ea6700)
