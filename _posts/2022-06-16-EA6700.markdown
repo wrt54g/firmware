@@ -15,7 +15,7 @@ img: "/assets/img/devices/ea6700.jpeg"
 comments_disable: true
 
 # publish date
-date: 2022-06-16 07:00:00 +0900
+date: 2022-06-16 20:00:00 +0900
 ---
 # Linksys EA6700
 <img src="/assets/img/devices/ea6700.jpeg">
