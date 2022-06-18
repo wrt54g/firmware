@@ -37,7 +37,8 @@ img: "/firmware/home-heading.jpg"
 
 {%- comment -%} Please delete below and place your page content here {%- endcomment -%}
 
-{%- include util/auto-content-generator.liquid -%}
 {{ website_info_text_first }}
-
+Welcome to Device FWDB
 {{ website_info_text_second }}
+IMPORTANT!: We are NOT responsible for any files hosted in this repository! This repository is purely ment for people that are searching resources for their old networking equipment.
+Use the files at your own risk.
