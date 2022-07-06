@@ -1,0 +1,22 @@
+﻿'use strict';
+window.CISCO.createAccount = window.CISCO.createAccount || {};
+window.CISCO.createAccount.strings = {
+    captchaIncorrect: "Incorrect response. Please try again.",
+    accountExistsHeading: "Account already exists",
+    accountExistsMessage: "A Cisco Connect Cloud account for {username} already exists.",
+    mustAcceptTerms: "License Terms must be accepted"
+};
+window.CISCO.login = window.CISCO.login || {};
+window.CISCO.login.strings = {
+    invalidInputGuestLogin: "Network connection is invalid. Please refresh the page and try again.",
+    invalidGuestPassword: "Invalid guest password. Please try again.",
+    invalidRouterPassword: "Invalid router password. Please try again.",
+    unexpectedError: "There was an unexpected error logging in. Please try again.",
+    invalidCloudLogin: "Invalid email address or password. Please try again.",
+    cloudUnavailable: "There was an unexpected error with the Cisco Connect Cloud services. Please try again later.",
+    accountNotFound: "A Cisco Connect Cloud account for {username} does not exist.",
+    accountDisabled: "The Cisco Connect Cloud Account for {username} has been disabled.",
+    captchaIncorrect: "Incorrect response. Please try again.",
+    changePasswordTokenInvalid: "The password reset link is invalid or has expired. Click the <em>Forgot Your Password</em> link and try again.",
+    changePasswordTokenInvalidTitle: "Password Reset Error"
+};
