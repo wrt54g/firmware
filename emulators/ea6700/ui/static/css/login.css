@@ -1,0 +1,94 @@
+header div.content ul li button{margin:10px 0 0 0}
+p{line-height:16px;padding:0 0 8px 0}
+div p:last-child{padding:0;margin-bottom:0}
+#account-main-content{border-top:1px solid #fff}
+#account-main-content div.lt-content{width:485px;height:500px}
+#account-main-content div.rt-content ul li{margin-bottom:10px}
+#account-main-content div.rt-content div.captcha-controls-container input{width:170px;margin:0;padding:0}
+#account-main-content div.rt-content button{min-width:100px;margin:15px 0 0 0}
+#error-dialog{width:300px}
+#error-dialog-content{color:#000}
+#account-main-content #unsecure-bubble #continue{margin-top:30px;margin-bottom:50px}
+#account-main-content #guest-login-content{margin:30px 30px}
+#account-main-content #guest-login-content ul{margin-bottom:25px}
+#account-main-content #guest-login-content img{margin-left:30px}
+#account-main-content #guest-login-content .login-container{padding-top:60px}
+#account-main-content #unsecure-bubble{width:678px;margin:30px}
+#account-main-content #unsecure-bubble #configure-block{margin-top:80px}
+#account-main-content #unsecure-bubble #configure-router{margin-right:30px}
+#account-main-content #language-select{margin-top:30px;float:right}
+#account-main-content div.lt-content ul{padding:15px 0 0 15px}
+#account-main-content div.lt-content li{list-style:disc;margin:8px 0 0 0;font-size:12px;font-weight:bold}
+#account-main-content div.rt-content .login-container #captcha-container{margin-top:10px;display:none}
+#account-main-content div.lt-content.login-content div.offline-content{margin:0}
+#account-main-content div.lt-content.login-content div.offline-content p{width:410px;font-weight:normal;font-size:11px;font-family:Helvetica,Arial;color:#808184;padding-bottom:20px;line-height:20px;line-height:20px}
+#account-main-content div.lt-content.login-content div.offline-content p em{font-weight:900;font-size:11px;font-family:Helvetica,Arial;color:#5d5d5f}
+html.IE #account-main-content div.lt-content.login-content div.offline-content p em{font-weight:bold}
+#account-container.login-wrapper{height:auto;overflow:hidden}
+.language-select{width:331px;margin-left:20px;padding:0 4px}
+.login-container{border-radius:5px;border:1px solid #97a6af;background:#f1f5f8;width:295px;margin-left:20px;padding:20px}
+#account-container.createAccount-wrapper{height:auto}
+#account-box-container{border-radius:5px;border:1px solid #97a6af;background:#f1f5f8;width:310px;padding:20px}
+#account-box-container + .language-select{padding-bottom:5px}
+article.createAccount-wrapper #account-box-container{padding:15px;margin-left:10px}
+#account-main-content div.rt-content #account-fields-container button{min-width:175px}
+#account-main-content div.rt-content #account-fields-container #password-reset-container button{min-width:100px}
+#account-main-content div.rt-content #account-fields-container p{color:#3b5264;font-weight:normal}
+#account-main-content h2{font-size:20px;font-weight:normal;color:#3c515e;margin:0 0 16px 0}
+h2.checkmark{background:transparent url("../images/checkmark.png") left center no-repeat;padding-left:42px;padding-top:7px;min-height:34px;line-height:1.2em;margin-bottom:7px;margin-left:-3px}
+#account-box-container h2.infoMark{font-size:13px;background:transparent url("../images/info24.png") left center no-repeat;padding-left:32px;padding-top:4px;line-height:19px;margin-top:7px;margin-bottom:7px;margin-left:-3px;padding-bottom:3px}
+#account-box-container h2 a{font-size:13px}
+#account-create-success,#password-reset-sent,#password-reset-verify-container,#validateAccount_complete,#validateAccount_repeat,.reset-step1,.reset-step1-result,.reset-step2{display:none}
+#captcha-container{border-radius:5px;padding:5px;border:1px solid #97a6af;background-color:#f5f8fa}
+#captcha-container div.captcha-controls-container{padding:10px 0 0 0;float:left}
+#captcha-container div.captcha-controls-container div.captcha-input-container{width:175px;padding:5px;float:left}
+#captcha-container div.captcha-controls{float:left;padding-top:26px}
+#captcha-container div.captcha-controls-container div.captcha-input-container p{padding:0;margin:0 0 2px 2px;float:left}
+#captcha-container img.captcha-image{width:300px;height:57px}
+#captcha-container a.captcha-audio{width:280px;display:none;padding:22px 0 21px 20px;background-color:#fff}
+#captcha-container .refresh-captcha-button,#captcha-container .captcha-audio-button,#captcha-container .captcha-image-button{display:block;width:23px;height:18px;background:url("../images/captcha/refresh.png") no-repeat;float:left;margin-left:5px;margin-right:0}
+#captcha-container .captcha-audio-button{background-image:url("../images/captcha/audio.png")}
+#captcha-container .captcha-audio-button:hover{background-image:url("../images/captcha/audio_hover.png")}
+#captcha-container .captcha-image-button{background-image:url("../images/captcha/image.png")}
+#captcha-container .captcha-image-button:hover{background-image:url("../images/captcha/image_hover.png")}
+#captcha-container .refresh-captcha-button:hover{background-image:url("../images/captcha/refresh_hover.png")}
+#guest-login-content ul{padding-bottom:40px}
+#guest-login-content .login-container{width:315px}
+#guest-login-content .icon-image{position:absolute;top:107px;left:330px}
+html.small-window #account-main-content #guest-login-content{margin:12px}
+html.small-window #guest-login-content .icon-image{top:38px;left:300px}
+html.small-window #applet-container h1{font-size:22px;-webkit-text-fill-color:#001b2d}
+html.small-window #applet-container h1.attention{padding-top:18px;margin-bottom:10px;font-size:16px;line-height:20px;min-height:40px}
+html.small-window header.account-header{padding:15px 15px 10px 15px !important;min-height:0}
+html.small-window div.attention{background-position:15px 2px !important;margin-top:0}
+html.small-window #main{top:65px}
+html.small-window #account-main-content #guest-login-content .login-container{padding-top:24px}
+html.small-window #applet-container > article > header,html.small-window #applet-container > article > section,html.small-window #applet-container > article > footer{width:400px;padding:15px}
+html.small-window #applet-container > article > section{min-height:60px;width:410px;border-top:none;padding:10px}
+html.small-window article,html.small-window #applet-container{width:470px !important;z-index:100}
+html.small-window #scroll-container > header div.content{width:100%;background-image:none !important;background-color:#023558 !important;height:50px}
+html.small-window > #scroll-container > header div.logo{height:58px}
+html.small-window > #scroll-container > header{width:100%;right:0;margin:0;padding:0;height:55px}
+html.small-window #account-main-content{background:none;background-color:#e0eaf1}
+html.small-window article header.account-header{border-bottom:none !important}
+html.small-window article section{border-top:none}
+html.small-window > #scroll-container > header #header-bg-main{display:none}
+html.small-window > #scroll-container > header .content > ul{margin:0 5px}
+html.small-window .lt-content{width:250px}
+#applet-container .account-header-allow-overflow{height:auto;min-height:76px;}
+#applet-container .account-header-allow-overflow h1,#applet-container .account-header-allow-overflow h4{max-width:none}
+html[dir="rtl"] .language-select,html[dir="rtl"] .login-container{margin-left:0;margin-right:20px}
+html[dir="rtl"] #account-main-content #language-select{float:left}
+#guest-login > div.left{margin:30px 0;width:50%}
+#guest-login > div.right{width:45%;margin:0}
+#guest-login > div.right > div.form-container{padding:40px 0 20px 0;margin:0;margin-bottom:30px;width:99% !important}
+#guest-login > div.right > div.form-container > ul{margin:20px 20px 0 20px}
+#guest-login > div.right > div.form-container > div{margin:30px 20px 0 20px;padding:0}
+#guest-login div.language-select select{float:right;margin:2px}
+#guest-login div.language-select{margin:0;padding:0;width:338px}
+html[dir=rtl] #guest-login div.language-select select{float:left}
+html.small-window #guest-login div.right > div.form-container{padding:5px !important;margin:1px 1px 10px 1px !important;width:320px !important}
+html.small-window #guest-login > div.right > div.form-container > div{margin:10px 10px 10px 10px;padding:0}
+body.embedded-ui-available.connection-local.online-mode #account-main-content .login-container .offline-content,body.embedded-ui-available.connection-local.online-mode header .offline-content,body.embedded-ui-available.connection-local.online-mode #cloud-access,body.embedded-ui-available.connection-remote.online-mode #local-access{display:block !important}
+body.embedded-ui-available.connection-local.online-mode #account-main-content .login-container .online-content,body.embedded-ui-available.connection-local.online-mode header .online-content{display:none !important}
+
