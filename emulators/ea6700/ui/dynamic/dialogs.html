@@ -1,0 +1,176 @@
+
+<div id="generic-dialog" class="dialog" style="display :none">
+    <div id="generic-dialog-content" class="dialog-content">
+    </div>
+    <div class="dialog-buttons">
+        <button class="cancel">Ok</button>
+    </div>
+</div>
+<div id="router-not-found" class="dialog exclamation" style="display: none;">
+    <div class="dialog-content">
+        <h1 class="exclamation">Router Not Found</h1>
+        <h2>You are not connected to your router</h2>
+        <ol>
+            <li>If using a wireless connection, check that the wireless feature on your computer or device is turned on, and make sure the device is not too far away from the router.</li>
+            <li>If connected with a cable, make sure the cable between your computer or device and the router is securely connected.</li>
+            <li>If your wireless connection settings (wireless network name or password) have recently changed, reconnect the device using the new settings.</li>
+        </ol>
+    </div>
+    <div class="dialog-buttons">
+        <button id="router-not-found-retry">Retry</button>
+    </div>
+</div>
+<div id="generic-error" class="dialog exclamation" style="display: none;">
+    <div class="dialog-content">
+        <h1 class="exclamation">Unexpected Error</h1>
+        <h2 id="generic-error-value"></h2>
+        We've encountered an unexpected error. If the issue continues, please visit our <a id="generic-error-technical-support">Technical Support</a> site.
+        <p id="generic-error-details"></p>
+    </div>
+    <div class="dialog-buttons">
+        <button class="cancel">Ok</button>
+    </div>
+</div>
+<div id="generic-warning-dialog" class="dialog exclamation" style="display: none;">
+    <div class="warning-content dialog-content"></div>
+    <div class="dialog-buttons">
+        <button class="cancel">No</button>
+        <button class="submit">Yes</button>
+    </div>
+</div>
+<div id="generic-alert-dialog" class="dialog exclamation" style="display: none;">
+    <div class="warning-content dialog-content"></div>
+    <div class="dialog-buttons">
+        <button class="cancel">Ok</button>
+    </div>
+</div>
+<div id="waiting" style="display:none">
+    <img src="ui/static/images/spinner/Spinner_55.gif" width="55" height="55" alt="Waiting" />
+    <div id="waiting-text">
+        Waiting...
+    </div>
+</div>
+<div id="help-menu-dialog" class="dialog help" style="display: none;">
+    <div class="dialog-header">
+        <h1>Help</h1>
+        <div class="close-button"></div>
+    </div>
+    <div class="dialog-content" >
+        <div class="pad-horz-lrg">
+            <div class="help-content" style="width:400px"></div>
+        </div>
+    </div>
+    <nav>
+        <h2>Help Categories</h2>
+        <ul id="help-nav-list">
+            <li id="CiscoConnectCloud">Linksys Smart Wi-Fi</li>
+        </ul>
+    </nav>
+    <div class="dialog-buttons">
+        <button class="cancel">Ok</button>
+    </div>
+</div>
+<div id="third-party-license-local" class="dialog" style="display: none">
+    <div class="dialog-content">
+        <h1>Firmware license</h1>
+        Please access the firmware license on the CD that came with your Cisco product.
+    </div>
+    <div class="dialog-buttons">
+        <button class="cancel">Ok</button>
+    </div>
+</div>
+<div id="link-unavailable-offline" class="dialog" style="display: none">
+    <div class="dialog-content">
+        <h1>Can't access the web page</h1>
+        You must be connected to the Internet to access this page.
+    </div>
+    <div class="dialog-buttons">
+        <button class="cancel">Ok</button>
+    </div>
+</div>
+<div id="firmware-update-required" class="dialog exclamation" style="display: none;">
+    <div class="dialog-content">
+        <h1 class="exclamation">Firmware update required</h1>
+        <h2>Install the updated firmware</h2>
+        <p>This feature requires newer firmware than what your router is currently using. After you log into your router, select <em>Connectivity</em>, then click on the <em>Check for updates</em> button. Then install the available update.</p>
+    </div>
+    <div class="dialog-buttons">
+        <button class="cancel">Ok</button>
+    </div>
+</div>
+<div id="online-to-offline" class="dialog exclamation" style="display: none;">
+    <div class="dialog-content">
+        <h1 class="exclamation">Can't access Cisco Connect Cloud</h1>
+        Access to Cisco Connect Cloud is unavailable because your current Cisco Connect Cloud session has timed out, or you don't have Internet access. If your session has timed out, simply login again. If you don't have Internet access, you can login to Cisco Connect Cloud offline and check your router settings.
+    </div>
+    <div class="dialog-buttons">
+        <button class="cancel">Ok</button>
+    </div>
+</div>
+<div class="dialog-container" style="z-index: -1; display:none">
+    <div id="user-menu-about-dialog">
+        <div class="dialog-header">
+            <h1>About</h1>
+            <div class="close-button"></div>
+        </div>
+        <div class="dialog-content form">
+            <div id="about-dialog-cloud">Software version:&nbsp;<span id="about-dialog-cloud-version"></span></div>
+            <div id="about-dialog-firmware"><span id="about-dialog-model-name"></span>&nbsp;firmware version:&nbsp;<span id="about-dialog-firmware-version"></span></div>
+            <br />
+            <br />
+            <h2>Copyright Information</h2>
+                &#169; 2013 Cisco Consumer Products LLC
+            <br />
+            <br />
+        </div>
+        <div class="dialog-buttons">
+            <button class="cancel">Ok</button>
+        </div>
+    </div>
+</div>
+<div id="global-tooltip" style="display: none" class="balloon left"><div class="tip"></div></div>
+<div id="dialog-cache" style="display: none"></div>
+<div id="generic-dialog-wrapper" class="dialog-container" style="display: none"></div>
+<div id="help-dialog-wrapper" class="dialog-container" style="display: none"></div>
+<div id="error-dialog-wrapper" class="dialog-container" style="display: none"></div>
+<div id="promptsavedhcpreservation" class="dialog" style="display: none;">
+    <div class="dialog-content">
+        <h1>Save Changes?</h1>
+        The Local Network settings have changed and must be saved before you can access DHCP Reservations.
+        <br /><br />
+        Note: If there are current DHCP Reservations that will be invalid when the Local Network Settings are saved, those DHCP Reservations will be deleted.
+        <br /><br />
+        Do you want to save the Local Network Settings?
+    </div>
+    <div class="dialog-buttons">
+        <button class="cancel">No</button>
+        <button class="submit">Yes</button>
+    </div>
+</div>
+<div id="eula-dialog" class="dialog" style="display :none">
+    <div class="dialog-content">
+        <h2>License Terms</h2>
+        <br />
+        <div id="eula-content" class="text-orphan"></div>
+    </div>
+    <div class="dialog-buttons">
+        <button class="cancel">Close</button>
+    </div>
+</div>
+<div id="email-not-validated" class="dialog exclamation" style="display: none;">
+    <div class="dialog-content">
+        <h1 class="exclamation">Login Error</h1>
+        <b>Your login has not been validated.</b><br />
+        Please check your email for the validation message.<br /><br />
+        <div id="email-not-validated-content" class="none">
+            <div id="none">&nbsp;</div>
+            <div id="sent"><img src="ui/static/images/badges/checkmark_18.png" style="vertical-align:bottom;padding-right:10px;"/>Email Sent!</div>
+            <div id="sending"><img src="ui/static/images/spinner/Spinner_18.gif" style="vertical-align:bottom;padding-right:10px;"/>Sending email...</div>
+            <div id="failed">Email was not sent. Try again!</div>
+        </div>
+    </div>
+    <div class="dialog-buttons">
+        <button class="cancel">Ok</button>
+        <button class="submit">Resend email</button>
+    </div>
+</div>
